@@ -14,6 +14,7 @@ body {
 	color: #f2f2f2; /*off-white*/
 	font-family: 'Quicksand', sans-serif;
 	font-family: 'Poiret One', cursive;
+	display: block;
 	
 }
 /*END OF BODY*/
@@ -78,3 +79,13 @@ h2 {
 	margin: 0 auto;
 }
 
+
+.icons {
+	width: 400px;
+	margin: 0 auto;
+}
+
+.socials {
+	width: 500px;
+	margin: 0 auto;
+}
