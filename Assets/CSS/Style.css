@@ -1,0 +1,78 @@
+/*CSS RESET*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*BODY*/
+body {
+	background-image: url(../Images/BG.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #f2f2f2; /*off-white*/
+	font-family: 'Roboto', sans-serif;
+	
+}
+/*END OF BODY*/
+
+/*H1*/
+h1 {
+	font-size: 50px;
+	/*background-color: #333; /*off-black*/*/
+	text-transform: uppercase;
+	margin-bottom: 15px;
+	letter-spacing: 3px;
+	border-radius: 10px;
+	margin: 10px;
+	padding: 10px;
+	background-image: linear-gradient(rgba(51,51,51,0), rgba(51,51,51,1));
+	text-shadow: 5px 5px 8px #000000;
+}
+/*END OF H1*/
+
+/*H2*/
+
+h2 {
+	font-size: 15px;
+	color: yellow;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-bottom: 15px;
+	/*background-color: #333;*/
+	padding: 15px;
+	margin: 10px;
+	border-radius: 10px;
+	background-image: linear-gradient(rgba(51,51,51,0), rgba(51,51,51,1));
+	text-shadow: 5px 5px 8px #000000;
+}
+/*END OF H2*/
+
+.bio {
+	font-size: 18px;
+	line-height: 1.75;
+	/*background-color: #333;*/
+	border-radius: 10px;
+	margin: 10px;
+	background-image: linear-gradient(rgba(51,51,51,0), rgba(51,51,51,1));
+	text-shadow: 5px 5px 8px #000000;
+}
+
+#me {
+	border-radius: 360px;
+	height: 200px;
+	width: 200px;
+	border-width: 5px;
+	border-color: #333;
+	border-style: solid;
+	margin-top: 50px;
+	margin-bottom: 25px;
+}
+
+.container {
+	text-align: center;
+	width: 500px;
+	height: 500px;
+	margin: 0 auto;
+}
